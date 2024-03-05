@@ -94,3 +94,19 @@ let greatestIncrease = 0;
 let greatestDecrease = 0;
 let monthYearIncrease = '';
 let monthYearDecrease = '';
+
+finances.forEach((finance, index) => {
+  if (index !== 0) {
+    totalMonths++;
+    totalSum += finance[1];
+    const change = finance[1] - finances[index - 1][1];
+    totalChange += change;
+    if (change > greatestIncrease) {
+      greatestIncrease = change;
+      monthYearIncrease = finance[0];
+    } else if (change < greatestDecrease) {
+      greatestDecrease = change;
+      monthYearDecrease = finance[0];
+    }
+  }
+});
