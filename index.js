@@ -110,3 +110,15 @@ finances.forEach((finance, index) => {
     }
   }
 });
+
+const averageChange = totalChange / totalMonths;
+
+console.log('Financial Analysis');
+console.log('-------------------');
+console.log(`Total Months: ${totalMonths +1}`);
+console.log(`Total: $${totalSum}`);
+console.log(`Average Change: $${averageChange.toFixed(2)}`);
+console.log('Greatest Increase in Profits/Losses: ${monthYearIncrease} ($${greatestIncrease})');
+console.log('Greatest Decrease in Profits/Losses: ${monthYearDecrease} ($${greatestDecrease})');
+
+
