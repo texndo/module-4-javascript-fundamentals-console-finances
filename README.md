@@ -31,7 +31,7 @@ Open the console in your 'index.html' file and the financial results should be p
 
 ## Live Demonstration
 
-Follow the link to find a functional, final working version of the Financial Analysis Tool [insert link here]
+Follow the link to find a functional, final working version of the Financial Analysis Tool https://texndo.github.io/module-4-javascript-fundamentals-console-finances/ 
 
 ## License
 
