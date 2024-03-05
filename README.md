@@ -26,7 +26,7 @@ Open the console in your 'index.html' file and the financial results should be p
 - Greatest increase in profits/losses (with date and amount)
 - Greatest decrease in profits/losses (with date and amount)
 
-<img src="pic_trulli.jpg" alt="Italian Trulli">
+<img src="./images/financial-analysis-screenshot.png" alt="screenshot of console log with printed financial analysis">
 
 
 ## Live Demonstration
