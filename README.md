@@ -7,7 +7,7 @@ To use this tool, follow these steps:
 
 1. Clone the repository:
 
-git clone https://github.com/texndo module-4-javascript-fundamentals-console-finances
+git clone https://github.com/texndo-module-4-javascript-fundamentals-console-finances
 
 2. Navigate to the project directory: 
 
