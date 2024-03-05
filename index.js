@@ -86,3 +86,30 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+const dataset = [
+  {Date: "Jan-2010", Profit: 867884},
+  {Date: "Feb-2010", Profit: 984655},
+  {Date: "Mar-2010", Profit: 322013},
+  {Date: "Apr-2010", Profit: -69417},
+  {Date: "May-2010", Profit: 310503},
+  {Date: "Jun-2010", Profit: 522857},
+  {Date: "Jul-2010", Profit: 1033096},
+  {Date: "Aug-2010", Profit: 604885},
+  {Date: "Sep-2010", Profit: -216386},
+  {Date: "Oct-2010", Profit: 477532},
+  {Date: "Nov-2010", Profit: 893810},
+  {Date: "Dec-2010", Profit: -80353},
+  
+]
+
+function calculateFinancialAnalysis(data) {
+  let totalMonths = data.length;
+  let totalProfit = 0;
+  let totalChange = 0;
+  let greatestIncrease = 0;
+  let greatestDecrease = 0;
+};
+
+
+
